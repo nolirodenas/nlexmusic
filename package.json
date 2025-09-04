@@ -1,12 +1,14 @@
-{ 
-  "homepage": "https://github.io/nolirodenas/nlexmusic",
+{
+  "homepage": "https://nolirodenas.github.io/nlexmusic",
   "name": "music-playlist-root",
   "private": true,
   "version": "1.0.0",
   "scripts": {
     "dev": "npm --prefix ./my-playlist-pro run dev",
     "build": "npm --prefix ./my-playlist-pro run build",
-    "install": "npm --prefix ./my-playlist-pro install"
+    "install": "npm --prefix ./my-playlist-pro install",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d my-playlist-pro/dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.12",

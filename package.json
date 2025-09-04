@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "npm --prefix ./my-playlist-pro run dev",
     "build": "npm --prefix ./my-playlist-pro run build",
+    "postbuild": "copy my-playlist-pro\\dist\\index.html my-playlist-pro\\dist\\404.html || cp my-playlist-pro/dist/index.html my-playlist-pro/dist/404.html",
     "install": "npm --prefix ./my-playlist-pro install",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d my-playlist-pro/dist"

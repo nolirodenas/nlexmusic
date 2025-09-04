@@ -1,0 +1,18 @@
+{
+  "name": "music-playlist-root",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm --prefix ./my-playlist-pro run dev",
+    "build": "npm --prefix ./my-playlist-pro run build",
+    "install": "npm --prefix ./my-playlist-pro install"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.12",
+    "react-router-dom": "^7.8.2",
+    "tailwindcss": "^4.1.12"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}

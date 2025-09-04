@@ -1,0 +1,45 @@
+:root {
+  --color-black-teal: #064e3b;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #281a2a;
+  color: var(--color-black-teal);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Centering container used by React entry; keep it responsive */
+.app-root {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  max-width: 1280px;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:focus {
+  box-shadow: 0 0 0 3px rgba(6,78,59,0.08);
+  outline: none;
+}
+
+html {
+  font-size: 14px;
+}
+@media (min-width: 640px) {
+  html { font-size: 15px; }
+}
+@media (min-width: 1024px) {
+  html { font-size: 16px; }
+}

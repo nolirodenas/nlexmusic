@@ -1,4 +1,5 @@
-{
+{ 
+  "homepage": "https://github.io/nolirodenas/nlexmusic",
   "name": "music-playlist-root",
   "private": true,
   "version": "1.0.0",

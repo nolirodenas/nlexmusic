@@ -1,5 +1,6 @@
-{
+{  "homepage" "hhttps://github.io/nolirodenas/nlexmusic/
   "name": "my-playlist-pro",
+  "predeploy" "".
   "private": true,
   "version": "0.0.0",
   "type": "module",
